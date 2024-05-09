@@ -4,6 +4,7 @@
 timedatectl set-timezone Asia/Jakarta
 
 # Update package lists & upgrade packages
+export NEEDRESTART_MODE=a # full unattended mode
 apt update -y && apt upgrade -y
 
 # Install git, curl, zip, python3, python3-pip
