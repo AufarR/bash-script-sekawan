@@ -8,7 +8,7 @@ export NEEDRESTART_MODE=a # full unattended mode
 apt update -y && apt upgrade -y
 
 # Install git, curl, zip, python3, python3-pip
-apt install -y curl zip python3 python3-pip
+apt install -y git curl zip python3 python3-pip
 
 # Install docker
 
